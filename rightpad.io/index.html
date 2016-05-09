@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <title>rightpad.io - why have two solutions when you can have three</title>
+  <style>
+    body {
+      background-color: black;
+      color: limegreen;
+      font-size: 16px;
+    }
+    a {
+      color: yellow;
+    }
+  </style>
+</head>
+<body>
+<pre>
+  ______       __    _______  __    __  .___________..______      ___       _______
+ |   _  \     |  |  /  _____||  |  |  | |           ||   _  \    /   \     |       \
+ |  |_)  |    |  | |  |  __  |  |__|  | `---|  |----`|  |_)  |  /  ^  \    |  .--.  |
+ |      /     |  | |  | |_ | |   __   |     |  |     |   ___/  /  /_\  \   |  |  |  |
+ |  |\  \----.|  | |  |__| | |  |  |  |     |  |     |  |     /  _____  \  |  '--'  |
+ | _| `._____||__|  \______| |__|  |__|     |__|     | _|    /__/     \__\ |_______/
+ ....................................................................................
+ :::: brought to you by the Padding Group :::::::::::::::::::::::::::::::::::::::::::
+ ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Welcome to rightpad.io and its sister <a href="http://leftpad.io">leftpad.io</a>, the new **STANDARDIZED** way to
+pad your strings.
+
+## Aren't there services for this already?
+
+Yes, there is <a href="http://left-pad.io">left-pad.io</a>, and then <a href="http://right-pad.io">right-pad.io</a> launched.
+
+## Well then why do we need another way to do things?
+
+* They cannot keep up with the speed of business.
+* They are not webscale.
+* They do not have the agile, the devops or the lean baked into the heart of
+  their product.
+* They do not share a consistent interface, left-pad.io uses `api.left-pad.io`,
+  and right-pad.io uses `right-pad.io/api`, how can you be expected to remember
+  two different ways of doing the same thing?
+
+Here at **The Padding Group**, our mandate is and will always be,
+_to change the world_.
+
+If people could not pad their strings, it would mean that no one could read a
+number, or format a piece of text, the fate of the literate world rested on our
+mortal shoulders crying out for a standardized solution, and we delivered.
+
+## Doesn't this change make an already fragmented system even worse?
+#### reference relevant <a href="https://xkcd.com/927/">xkcd</a> I saw on reddit and hackernews
+
+You would think that.  But if everyone switched over to us, the system would not
+be fragmented, we would become the new standard.  So while it may seem like that
+in theory, you would be incorrect.
+
+## You mentioned something about the other services having limits?
+
+* right-pad has not disclosed their limits, so we assume they are not sufficient.
+* left-pad, can only pad up to 1024 characters, and what if you need more than
+  1024 characters? You need to email a salesperson to have your limit raised for
+  an undisclosed sum of money.
+
+Your company is being held hostage by an unknown company with hyphens in their
+URL at the time when you need to scale the most, and you have no idea what the
+ransom is.
+
+## I cannot grow my company with those types of restrictions!
+
+At <a href="rightpad.io">rightpad.io</a>, we have doubled the limit from 1024 to 2048, allowing you to
+scale your business.
+
+## What if 2048 are not enough characters?  Isn't this the same problem?
+
+You would think that.  But no one has ever needed a string larger than 2048
+characters, we checked.
+
+## Why should I trust you more than right-pad.io?
+
+With left-pad and right-pad they have hyphens in the name, and you cannot trust a
+company or an api with a hyphen in their name, that's just science.
+
+No one uses goo-gle.com, they use google.com right?
+
+## So what happens next?
+
+After talking with our potential VC, and given the world impact of this product,
+we estimate it is most certainly a billion-dollar market opportunity.  We are
+building the product correctly, using only the shiniest of languages and hipster
+terminologies, we are assured with the right slide deck will succeed.  So you
+are assured we will be around for a long time, or at least until we get
+acqui-hired.
+
+rightpad.io is more trustworthy, it has the correct limits in place to enable you
+to grow and scale your business.  Also we use the agile, the devops and the lean,
+so you know its webscale.
+
+## That sounds amazing, my CIO will love this, How do I use it??
+
+We looked at the "REST" implementation of `api.left-pad.io` and then the "REST"
+implementation of `right-pad.io/api`, and it was obvious they were doing it
+completely wrong.
+
+Why are they using the query string to pass in parameters, when you **SHOULD**
+be using HTTP headers so Hackers cannot see your data.
+
+Look at this URL, <a href="https://right-pad.io/api?str=hackers-can-see-this&len=68&ch=!">https://right-pad.io/api?str=hackers-can-see-this&len=68&ch=!</a>
+a hacker can see EXACTLY what you are trying to right-pad, do you want to be
+responsible for Hackers having access to all of your data?
+
+## Well than, what is the RIGHT way to do this?
+
+You need to hide the data in the headers so hackers cannot see them.  We at
+**The Padding Group** have been pioneers in leading the SecOps benefits of
+**Header Driven Development**.
+
+```
+$ curl 'https://secure.rightpad.io' \
+-H "X-STR: hackers-cannot-see-me-they-just-see-secure.rightpad.io" \
+-H "X-LEN: 64" \
+-H "X-CH: !"
+{"str":"hackers-cannot-see-me-they-just-see-secure.rightpad.io!!!!!!!!!!"}
+```
+
+The header parameters names `X-STR`, `X-LEN`, and `X-CH` are the same as the
+`left-pad` and `right-pad.io` just more secure, so swapping over to
+<a href="https://rightpad.io">rightpad.io</a> should be a breeze.
+
+## What did I just finish reading?
+
+Thanks to <a href="https://twitter.com/gabrielgironda">@gabrielgironda</a> for making me laugh, we at the Padding Group
+apprecaite you (<a href="https://twitter.com/codemoran">@codemoran</a>).
+</pre>
+</body>
+</html>

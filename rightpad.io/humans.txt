@@ -1,0 +1,12 @@
+/* TEAM */
+Random: Michael Moran
+Contact: root@rightpad.io
+Twitter: @codemoran
+From: Edmonton, AB, Canada
+
+/* THANKS */
+@gabrielgironda for making me laugh.
+
+/* SITE */
+Last update: 2016/05/08
+Software: NodeJS
